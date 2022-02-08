@@ -632,6 +632,7 @@ footer ul li img {
 
 .sobre img {
   width: 60%;
+  min-width: 346.92px;
 }
 
 .sobre .sobre-infogirl h2 {
@@ -643,6 +644,12 @@ footer ul li img {
 .sobre .sobre-infogirl p {
   font-size: 20px;
   text-align: justify;
+}
+
+.sobre .cenario .imagem {
+  display: flex;
+  min-height: 70px;
+  justify-content: center;
 }
 @media screen and (min-width: 1001px) and (max-width: 1420px) {
   .margin-respiro {
